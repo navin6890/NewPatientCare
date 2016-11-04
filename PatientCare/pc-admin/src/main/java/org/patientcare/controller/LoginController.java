@@ -49,6 +49,6 @@ public class LoginController
 	
 		
 		req.setAttribute("user", admin);
-		return "welcome";
+		return "adminDashboard";
 	}
 }
